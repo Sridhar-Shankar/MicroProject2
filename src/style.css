@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: content-box;
+}
+
+#root {
+  position: relative;
+}
+.navbar {
+  background-color: #6f6af7;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-head {
+  font-family: Delius Unicase;
+  font-weight: 700;
+  text-align: left;
+}
+
+.menu-bar {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  justify-content: space-around;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-value {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 200px;
+  padding-right: 40px;
+}
+
+.search-button {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.hamburger {
+  width: 50px;
+  height: 40px;
+}
+
+.main-section {
+  margin: 50px;
+  position: relative;
+}
+.first-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 300px;
+  box-shadow: #ccc;
+}
+
+.first-image {
+  width: 300px;
+}
+
+.text-area {
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 20px;
+  background-color: #e5d8ff;
+  width: 70%;
+  outline: none;
+  border-radius: 20px;
+  border: #ffffff;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.card {
+  font-family: DM Sans;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  width: 250px;
+  height: 100px;
+  border-radius: 11px;
+  background-color: #929dff;
+}
+
+.card1 {
+  background-color: #734cf2;
+}
+.card2 {
+  background-color: #d288ff;
+}
+.card3 {
+  background-color: #000000;
+}
+
+.third-section {
+  display: flex;
+  /* justify-content: space-around; */
+  border-radius: 18px;
+  margin-top: 50px;
+  gap: 20px;
+  background-color: #483eff;
+  padding: 30px;
+}
+
+.menu-buttons {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.info {
+  height: 90px;
+  box-sizing: content-box;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #000000;
+  background-color: #bce0f6;
+}
+
+.transparent {
+  background: transparent;
+  border: solid #ffffff;
+}
+
+.information {
+  flex-direction: column;
+  font-family: Inter;
+  width: 75%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.info-para {
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.next {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-button {
+  margin: 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: white;
+  padding: 12px;
+  width: 100px;
+  border-radius: 6px;
+  background-color: #000000;
+}
+
+.arrow-img {
+  width: 18px;
+}
+
+.socials {
+  position: fixed;
+  top: 150px;
+  right: 10px;
+  gap: 8px;
+
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.socials img {
+  width: 40px;
+  height: 40px;
+}
+
+.chat-icon {
+  float: right;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+.chat-img {
+  width: 100px;
+}
